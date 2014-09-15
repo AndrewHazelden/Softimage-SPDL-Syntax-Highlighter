@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<!-- 
+
+  Softimage SPDL Language Module for BBEdit and TextWrangler
+  Version 1 - Sept 14, 2014
+
+  Created by Andrew Hazelden
+  andrew@andrewhazelden.com
+  http://www.andrewhazelden.com
+  
+  Released under a Creative Commons Attribution-ShareAlike License:
+  <http://creativecommons.org/licenses/by-sa/2.0/>
+
+  To install, copy here:
+    
+      ~/Library/Application Support/BBEdit/Language Modules/
+
+  or here:
+
+    ~/Library/Application Support/TextWrangler/Language Modules/
+
+  and relaunch BBEdit or TextWrangler.
+  
+  Note: If you want to edit the plist file you can use the Apple plutil tool to validate plist file to check your edits for errors:
+  plutil ~/"Library/Application Support/TextWrangler/Language Modules/Softimage SPDL.plist"
+
+
+-->
+
+<dict>
+  <key>BBEditDocumentType</key>
+  <string>CodelessLanguageModule</string>
+
+  <key>BBLMColorsSyntax</key>
+  <true/>
+
+  <key>Copyright</key>
+  <string>Copyright © 2014, Andrew Hazelden</string>
+  
+  <key>Author</key>
+  <string>Andrew Hazelden</string>
+  
+  <key>Version</key>
+  <string>1.0</string>
+
+  <key>BBLMIsCaseSensitive</key>
+  <false/>
+
+  <key>BBLMLanguageCode</key>
+  <string>SPDL</string>
+
+  <key>BBLMLanguageDisplayName</key>
+  <string>Softimage SPDL</string>
+
+  <key>BBLMScansFunctions</key>
+  <false/>
+  
+  <key>BBLMSuffixMap</key> 
+  <array> 
+  <dict> 
+    <key>BBLMLanguageSuffix</key> 
+    <string>.spdl</string>
+  </dict>
+  </array> 
+ 
+  <key>BBLMPreferredFilenameExtension</key>
+  <string>spdl</string>
+
+  <key>BBLMSupportsTextCompletion</key>
+  <true/>
+
+  <key>BBLMCommentLineDefault</key>
+  <string>#</string>
+
+  <key>BBLMKeywordList</key>
+  <array>
+  
+    <!-- Data Types Start -->
+    <string>Color</string>
+    <string>Integer</string>
+    <string>String</string>
+    <string>Texture</string>
+    <string>Boolean</string>
+    <string>Scalar</string>
+    <string>Vector</string>
+    <!-- Data Types Start -->
+    
+    <!-- Keywords1 Start -->
+		<string>Version</string>
+		<string>Reference</string>
+		<string>PropertySet</string>
+		<string>Parameter</string>
+		<string>output</string>
+		<string>input</string>
+		<string>SPDL</string>
+		<string>Defaults</string>
+		<string>MetaShader</string>
+		<string>Layout</string>
+		<string>Logic</string>
+		<string>Language</string>
+		<string>Group</string>
+		<string>phenomenon</string>
+		<string>mode</string>
+		<string>Plugin</string>
+		<string>Row</string>
+		<string>Tab</string>
+		<string>Button</string>
+		<string>presets</string>
+		<string>method</string>
+    <!-- Keywords1 End-->
+
+    <!-- Keywords2 Start -->
+		<string>GUID</string>
+		<string>Type</string>
+		<string>Value</string>
+		<string>Texturable</string>
+		<string>Animatable</string>
+		<string>flags</string>
+		<string>Name</string>
+		<string>Commands</string>
+		<string>Sub</string>
+		<string>OnInit</string>
+		<string>PPG</string>
+		<string>&quot;End Sub&quot;</string>
+		<string>&quot;End sub&quot;</string>
+		<string>PPGLayout</string>
+		<string>SetAttribute</string>
+		<string>Minimum</string>
+		<string>Maximum</string>
+		<string>lens</string>
+		<string>UIType</string>
+		<string>Items</string>
+		<string>sub</string>
+		<string>Use</string>
+		<string>Shader</string>
+		<string>FileName</string>
+		<string>guid</string>
+		<string>texturable</string>
+		<string>type</string>
+		<string>value</string>
+		<string>Renderer</string>
+		<string>light</string>
+		<string>defaultColor</string>
+		<string>channel</string>
+		<string>title</string>
+		<string>minimum</string>
+		<string>maximum</string>
+		<string>writable</string>
+		<string>animatable</string>
+		<string>persistable</string>
+		<string>readable</string>
+		<string>inspectable</string>
+		<string>UIRange</string>
+		<string>Refresh</string>
+		<string>PPG</string>
+		<string>Class</string>
+		<string>Caption</string>
+		<string>sName</string>
+		<string>Exit</string>
+		<string>Material</string>
+		<string>Application</string>
+		<string>SetValue</string>
+		<string>SetAttribute</string>
+		<string>return</string>
+		<string>Dictionary</string>
+		<string>GetObject</string>
+		<string>Flags</string>
+		<string>Writable</string>
+		<string>Readable</string>
+		<string>Persistable</string>
+		<string>Inspectable</string>
+		<string>Description</string>
+		<string>Options</string>
+		<string>ReadOnly</string>
+		<string>SetValue</string>
+		<string>Item</string>
+		<string>Show</string>
+		<string>readlines</string>
+		<string>from</string>
+		<string>win32com</string>
+		<string>client</string>
+		<string>import</string>
+		<string>constants</string>
+		<string>as</string>
+		<string>Enable</string>
+		<string>Parent</string>
+		<string>count</string>
+		<string>initiated</string>
+		<string>filename</string>
+		<string>componentLibsPath</string>
+    <!-- Keywords2 End -->
+
+    <!-- Keywords3 Start -->
+		<string>If</string>
+		<string>ElseIf</string>
+		<string>Else</string>
+		<string>Then</string>
+		<string>to</string>
+		<string>&quot;End If&quot;</string>
+		<string>&quot;End IF&quot;</string>
+		<string>For</string>
+		<string>Each</string>
+		<string>In</string>
+		<string>Next</string>
+		<string>Set</string>
+		<string>Dim</string>
+		<string>for</string>
+		<string>each</string>
+		<string>next</string>
+		<string>ReDim</string>
+		<string>Preserve</string>
+		<string>Function</string>
+		<string>&quot;End Function&quot;</string>
+		<string>&quot;end function&quot;</string>
+		<string>LogMessage</string>
+		<string>Array</string>
+		<string>ARRAY</string>
+		<string>Error</string>
+		<string>Resume</string>
+		<string>def</string>
+		<string>then</string>
+		<string>AND</string>
+		<string>and</string>
+		<string>dim</string>
+		<string>if</string>
+		<string>button</string>
+		<string>PickObject</string>
+		<string>&quot;end if&quot;</string>
+		<string>DeselectAll</string>
+		<string>To</string>
+		<string>str</string>
+		<string>elif</string>
+		<string>else</string>
+		<string>else:</string>
+		<string>close</string>
+		<string>float</string>
+		<string>int</string>
+		<string>range</string>
+		<string>in</string>
+		<string>InputBox</string>
+		<string>Err</string>
+		<string>Number</string>
+		<string>Not</string>
+		<string>Int</string>
+		<string>Floor</string>
+		<string>Ceil</string>
+		<string>Replace</string>
+		<string>SetExpr</string>
+		<string>len</string>
+		<string>open</string>
+		<string>split</string>
+		<string>break</string>
+		<string>readline</string>
+		<string>siError</string>
+    <!-- Keywords3 End -->
+    
+    <!-- Keywords4 Start -->
+		<string>true;</string>
+		<string>true</string>
+		<string>false;</string>
+		<string>false</string>
+		<string>on;</string>
+		<string>on</string>
+		<string>off;</string>
+		<string>off</string>
+		<string>NULL</string>
+		<!-- Keywords4 End -->
+
+    <!-- Keywords5 Start -->
+		<string>!</string>
+		<string>(</string>
+		<string>)</string>
+		<string>.</string>
+		<string>;</string>
+		<string>[</string>
+		<string>\</string>
+		<string>]</string>
+		<string>+</string>
+		<string>=</string>
+		<string>&lt;</string>
+		<string>&gt;</string>
+		<string>&amp;&amp;</string>
+		<string>&amp;</string>
+		<string>||</string>
+		<string>?:</string>
+		<string>--</string>
+		<string>%</string>
+		<string>^</string>
+		<string>*</string>
+		<string>/</string>
+		<string>,</string>
+    <!-- Keywords5 End -->
+
+
+  </array>
+    
+  <key>Language Features</key>
+  <dict>
+    <key>Identifier and Keyword Characters</key>
+    <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>    
+
+    <key>Open Strings 1</key>
+    <string>&quot;</string>
+    <key>Close Strings 1</key>
+    <string>&quot;</string>
+    <key>End-of-line Ends Strings 1</key>
+    <true/>
+    <key>Escape Char in Strings 1</key>
+    <string>\</string>
+    
+    <key>Open Line Comments</key> <string>;</string>
+    <key>PreferLineCommentsWhenCommenting</key>
+    <true/>
+    
+    <key>Comment Pattern</key> 
+    <string><![CDATA[
+    (?x: 
+      (\#.*?$)
+    )
+    ]]></string>
+    
+    <key>String Pattern</key> 
+    <string><![CDATA[ 
+    (?x: 
+      ("(\\"|[^"\r]|\\\r)*") | (?# Double-quote) 
+      (?s: 
+        <<-?(?P<delim>\w+) (?# Here-document)
+        .*?
+        (?P=delim)
+      )
+    )
+    ]]></string>
+    
+    <key>Skip Pattern</key> 
+    <string><![CDATA[ 
+    (?x: 
+    (?P>comment) |
+    (?P>string)
+    )]]></string>
+  
+  </dict>
+
+</dict>
+</plist>
